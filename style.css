@@ -1,10 +1,79 @@
+@font-face {
+    font-family: nb;
+    src: url(./Fonts/NBInternationalProBoo.ttf);
+}
+
+@font-face{
+    font-family: rj;
+    src: url(./Fonts/Rejouice-Headline.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "nb";
 }
 
 body,html{
     height: 100%;
     width: 100%;
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ad5555;
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+    position: absolute;
+}
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    /* height: 100px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.3vw 3vw;
+}
+
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+#page1-content h1{
+    font-family: "rj";
+    font-size: 27vw;
+    font-weight: 100;
+    line-height: 27vw;
+}
+
+#page1-content h1 span{
+   font-family: "rj"; 
 }
