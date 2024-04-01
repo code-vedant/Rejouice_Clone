@@ -234,7 +234,7 @@ nav h4{
 #page4{
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(239, 128, 0);
+    /* background-color: rgb(239, 128, 0); */
     position: relative;
     padding: 0 3vw;
 }
@@ -278,12 +278,12 @@ nav h4{
 
 #page5{
     width: 100%;
-    background-color: rgb(255, 249, 242);
+    /* background-color: rgb(255, 249, 242); */
     position: relative;
     padding: 2.8vw;
 }
 
-#page5 #top-4{
+#page5 #top-5{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -295,23 +295,23 @@ nav h4{
 
 }
 
-#page5 #top-4 #left-4{
+#page5 #top-5 #left-5{
     overflow: hidden;
 }
 
-#page5 #top-4 #left1-4{
+#page5 #top-5 #left1-5{
     overflow: hidden;
 }
 
-#page5 #top-4 #left2-4{
+#page5 #top-5 #left2-5{
     overflow: hidden;
 }
 
-#page5 #top-4 #right-4{
+#page5 #top-5 #right-5{
     overflow: hidden;
 }
 
-#page5 #top-4 h3{
+#page5 #top-5 h3{
     font-size: 1.6vw;
     font-weight: 100;
     overflow: hidden;
@@ -320,22 +320,22 @@ nav h4{
 
 
 
-#page5 #elem-4{
+#page5 #elem-5{
     overflow: hidden;
     font-size: 2.05vw;
     font-weight: 100;
 }
 
-#page5 #elem-4 h1{
+#page5 #elem-5 h1{
     font-weight: 100;
     overflow: hidden;
 }
 
-#page5 #elem-4 #lines-4{
+#page5 #elem-5 #lines-5{
     overflow: hidden;
 }    
 
-#page5 #elem-4 #line1-4{
+#page5 #elem-5 #line1-5{
     text-align: center;
 }
 
@@ -349,4 +349,75 @@ nav h4{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#page7{
+    width: 100%;
+    /* background-color: rgb(255, 249, 242); */
+    position: relative;
+    padding: 2.8vw;
+}
+
+#page7 #top-7{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2vw;
+    margin-bottom: 1vw;
+    /* background-color: red; */
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+
+}
+
+#page7 #top-7 #left-7{
+    overflow: hidden;
+}
+
+#page7 #top-7 #left1-7{
+    overflow: hidden;
+}
+
+#page7 #top-7 #left2-7{
+    overflow: hidden;
+}
+
+#page7 #top-7 #right-7{
+    overflow: hidden;
+}
+
+#page7 #top-7 h3{
+    font-size: 1.6vw;
+    font-weight: 100;
+    overflow: hidden;
+    /* background-color: #ff5f38; */
+}
+
+
+
+#page7 #elem-7{
+    overflow: hidden;
+    font-size: 2.05vw;
+    font-weight: 100;
+}
+
+#page7 #elem-7 h1{
+    font-weight: 100;
+    overflow: hidden;
+}
+
+#page7 #elem-7 #lines-7{
+    overflow: hidden;
+}    
+
+#page7 #elem-7 #line1-7{
+    text-align: center;
+}
+
+#page8{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: rgb(239, 128, 0); */
+    position: relative;
+    padding: 0 3vw;
 }

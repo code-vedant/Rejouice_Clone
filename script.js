@@ -86,23 +86,44 @@ page2Anime();
 function page5Anime() {
   let tl = gsap.timeline({
     scrollTrigger: {
-      trigger: "#top-4 h3",
+      trigger: "#top-5 h3",
       start: "0% 90%",
       end: "100% 93%",
       markers: true,
     },
   });
-  tl.from("#top-4 h3", {
+  tl.from("#top-5 h3", {
     y: 22,
     stagger: 0.2,
   });
 
-  tl.from("#elem-4 h1", {
+  tl.from("#elem-5 h1", {
     y: 122,
     stagger: 0.1,
-    duration: 0.3,
+    duration: 0.2,
   });
 }
 page5Anime();
 
+function page7Anime() {
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#top-7 h3",
+      start: "0% 90%",
+      end: "100% 93%",
+      markers: true,
+    },
+  });
+  tl.from("#top-7 h3", {
+    y: 22,
+    stagger: 0.2,
+  });
+
+  tl.from("#elem-7 h1", {
+    y: 122,
+    stagger: 0.1,
+    duration: 0.2,
+  });
+}
+page7Anime();
 // locomotiveAnimation()
