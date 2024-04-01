@@ -67,7 +67,7 @@ function page2Anime() {
       trigger: "#top h3",
       start: "0% 90%",
       end: "100% 93%",
-      markers: true,
+      // markers: true,
     },
   });
   tl.from("#top h3", {
@@ -89,7 +89,7 @@ function page5Anime() {
       trigger: "#top-5 h3",
       start: "0% 90%",
       end: "100% 93%",
-      markers: true,
+      // markers: true,
     },
   });
   tl.from("#top-5 h3", {
@@ -111,7 +111,7 @@ function page7Anime() {
       trigger: "#top-7 h3",
       start: "0% 90%",
       end: "100% 93%",
-      markers: true,
+      // markers: true,
     },
   });
   tl.from("#top-7 h3", {
