@@ -61,6 +61,73 @@ function cursorAnime() {
 }
 cursorAnime();
 
+function loaderAnime() {
+
+let tl = gsap.timeline()
+
+tl.from("#loader span",{
+  x:100,
+  duration:1.2,
+  stagger:0.15,
+  delay:0.1
+})
+tl.to("#loader span",{
+  x:-100,
+  duration:0.5,
+  opacity:0,
+  stagger:0.15
+})
+tl.to('#loader',{
+  duration:0.5,
+  opacity:0,
+  display:"none"
+})
+}
+loaderAnime()
+
+
+function cursorAnime1() {
+  let page6cont = document.querySelector("#page6 #video-container");
+  let cursor = document.querySelector("#crsr1");
+
+  page6cont.addEventListener("mousemove", function (dets) {
+    gsap.to(cursor, {
+      x: dets.x,
+      y: dets.y,
+    });
+  });
+
+  page6cont.addEventListener("mouseenter", function () {
+    gsap.to(cursor, {
+      scale: 1,
+      opacity: 1,
+    });
+  });
+
+  page6cont.addEventListener("mouseleave", function () {
+    gsap.to(cursor, {
+      scale: 0,
+      opacity: 0,
+    });
+  });
+}
+cursorAnime1();
+
+function page1Anime() {
+  let tl = gsap.timeline();
+  tl.from("#navv-left h3", {
+    x: 155,
+    delay:0.1,
+    // stagger: 0.2,
+  });
+
+  tl.from("#text-1 h1 span", {
+    y: 210,
+    stagger: 0.1,
+  });
+}
+page1Anime();
+
 function page2Anime() {
   let tl = gsap.timeline({
     scrollTrigger: {
